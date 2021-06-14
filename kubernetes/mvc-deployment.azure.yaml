@@ -14,8 +14,9 @@ spec:
     spec:
       containers:
       - name: mvc
-        image: samplecregistry.azurecr.io/mokhos/productsstoreonkubernetes:#{Build.BuildId}#
+        # image: samplecregistry.azurecr.io/mokhos/productsstoreonkubernetes:#{Build.BuildId}#
         # image: houssemdocker/webapp:111
+         image: mohammadkhoshnazar/products-store-mvc:v1.#{Build.BuildId}#
         # image: ACR_NAME/DOCKER_IMAGE:TAG
         # image: __ACR_NAME__.azurecr.io/__DOCKER_IMAGE__:__TAG__
         ports:
